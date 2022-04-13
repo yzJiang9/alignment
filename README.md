@@ -17,9 +17,9 @@ pip install git+https://github.com/yzJiang9/alignment.git
 ```py
 from alignment import smith_waterman
 
-inputFile = 'pathToInput'
-scoreFile = 'pathToScoreFile'
-outputFile = 'pathToOutput'
+inputFile = 'path/To/Input'
+scoreFile = 'path/To/ScoreFile'
+outputFile = 'path/To/Output'
 
 smith_waterman.runSW(inputFile, scoreFile, outputFile, openGap = -2, extGap = -1)
 ```
